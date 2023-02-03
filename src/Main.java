@@ -1,7 +1,5 @@
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         //intOperandA, intOperandB, intSum, intProduct, intDifference, intQuotient, intModulo
 
         int intOperandA = 3;
@@ -25,7 +23,7 @@ public class Main
         System.out.println("The product of " + intOperandA + " and " + intOperandB + " is " + intProduct);
 
         intQuotient = intOperandA / intOperandB;
-        System.out.println("intquotient is " + intOperandA + " and " +  intOperandB + " is " + intQuotient);
+        System.out.println("intquotient is " + intOperandA + " and " + intOperandB + " is " + intQuotient);
 
         intModulo = intOperandA % intOperandB;
         System.out.println("intModulo is " + intOperandA + " and " + intOperandB + " is " + intModulo);
@@ -52,10 +50,7 @@ public class Main
         doubleQuotient = doubleOperandA / doubleOperandB;
         System.out.println("doubleQuotient is " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
 
-        public class SalesTax
-        {
-
-        }
-
     }
 }
+
+
