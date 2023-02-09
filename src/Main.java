@@ -5,11 +5,11 @@ public class Main {
         int intOperandA = 3;
         int intOperandB = 5;
 
-        int intSum = 0;
-        int intProduct = 0;
-        int intDifference = 0;
-        int intQuotient = 0;
-        int intModulo = 0;
+        int intSum;
+        int intProduct;
+        int intDifference;
+        int intQuotient;
+        int intModulo;
 
         intSum = intOperandA + intOperandB;
 
@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("The product of " + intOperandA + " and " + intOperandB + " is " + intProduct);
 
-        intQuotient = intOperandA / intOperandB;
+        intQuotient = intOperandA/intOperandB;
         System.out.println("intquotient is " + intOperandA + " and " + intOperandB + " is " + intQuotient);
 
         intModulo = intOperandA % intOperandB;
